@@ -1,5 +1,5 @@
 name: Feature request
-description: Suggest an improvement or new feature for DRH - Add-ons Audit.
+description: Suggest an improvement or new feature for DRH - Color Ramp Studio.
 title: "[Feature]: "
 labels:
   - feature request
@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for suggesting an improvement for DRH - Add-ons Audit.
+        Thanks for suggesting an improvement for DRH - Color Ramp Studio.
 
         Please describe the problem and the value of the proposed feature.
 
