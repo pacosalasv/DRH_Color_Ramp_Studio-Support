@@ -61,4 +61,8 @@ This add-on is source based, with no obfuscation, no binary-only content, and no
 - Open a Discussion for questions, setup help, workflow advice, and suggestions
 - Open an Issue for confirmed bugs, reproducible compatibility problems, regressions, and feature requests
 
+## License
+
+This repository is distributed under GPL-3.0-or-later.
+
 Thanks for helping improve DRH - Color Ramp Studio.
