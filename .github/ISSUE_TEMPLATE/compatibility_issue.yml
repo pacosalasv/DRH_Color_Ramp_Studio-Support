@@ -1,5 +1,5 @@
 name: Compatibility issue
-description: Report a Blender version or platform compatibility problem.
+description: Report a Blender version or platform compatibility problem in DRH - Color Ramp Studio.
 title: "[Compatibility]: "
 labels:
   - compatibility issue
@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a compatibility issue.
+        Thanks for reporting a compatibility issue in DRH - Color Ramp Studio.
 
         Use this form for Blender version differences, platform-specific failures, or behavior that appears tied to environment compatibility.
 
@@ -56,14 +56,14 @@ body:
     attributes:
       label: What works
       description: Describe what works normally, if anything.
-      placeholder: "Example: The add-on installs, the panel appears, export works."
+      placeholder: "Example: The add-on installs, the panel appears, and tools load correctly."
 
   - type: textarea
     id: what_fails
     attributes:
       label: What fails
       description: Describe the compatibility problem clearly.
-      placeholder: "Example: The panel does not load, buttons fail, or export crashes."
+      placeholder: "Example: The panel does not load, buttons fail, or a context menu option is missing."
     validations:
       required: true
 
