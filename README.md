@@ -1,4 +1,4 @@
-<img width="680" alt="DRH - Color Ramp Studio banner" src="[REPLACE_WITH_YOUR_BANNER_URL](https://github.com/user-attachments/assets/9c3aecc0-963a-4c13-8286-9059db2fcb41)" />
+<img width="680" alt="DRH - Color Ramp Studio banner" src="https://github.com/user-attachments/assets/9c3aecc0-963a-4c13-8286-9059db2fcb41" />
 
 # DRH - Color Ramp Studio Support
 
