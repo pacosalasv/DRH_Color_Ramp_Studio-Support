@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a reproducible problem in DRH - Add-ons Audit.
+description: Report a reproducible problem in DRH - Color Ramp Studio.
 title: "[Bug]: "
 labels:
   - bug
@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a bug in DRH - Add-ons Audit.
+        Thanks for reporting a bug in DRH - Color Ramp Studio.
 
         Please complete the details below so the issue can be reproduced and reviewed.
 
@@ -15,7 +15,7 @@ body:
     id: addon_version
     attributes:
       label: Add-on version
-      description: What version of DRH - Add-ons Audit are you using?
+      description: What version of DRH - Color Ramp Studio are you using?
       placeholder: "Example: 1.0.0"
     validations:
       required: true
