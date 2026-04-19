@@ -1,4 +1,4 @@
-<img width="680" alt="DRH - Color Ramp Studio banner" src="https://github.com/user-attachments/assets/9c3aecc0-963a-4c13-8286-9059db2fcb41" />
+<img width="680" alt="DRH - Color Ramp Studio banner" src="https://github.com/user-attachments/assets/f30d565c-d040-471d-86d9-0b774c0351e1" />
 
 # DRH - Color Ramp Studio Support
 
