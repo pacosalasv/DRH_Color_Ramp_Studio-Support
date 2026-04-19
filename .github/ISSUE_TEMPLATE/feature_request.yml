@@ -42,7 +42,7 @@ body:
     id: workflow_benefit
     attributes:
       label: Workflow benefit
-      description: How would this improve usability, speed, clarity, or reporting?
+      description: How would this improve usability, speed, clarity, or workflow quality?
       placeholder: "Explain the practical benefit."
     validations:
       required: true
