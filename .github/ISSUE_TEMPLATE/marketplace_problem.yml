@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this form for marketplace, listing, package delivery, or update distribution problems related to DRH - Add-ons Audit.
+        Use this form for marketplace, listing, package delivery, or update distribution problems related to DRH - Color Ramp Studio.
 
   - type: input
     id: marketplace_name
@@ -21,7 +21,7 @@ body:
     id: product_version
     attributes:
       label: Product or version affected
-      placeholder: "Example: DRH - Add-ons Audit 1.0.0"
+      placeholder: "Example: DRH - Color Ramp Studio 1.0.0"
     validations:
       required: true
 
