@@ -63,7 +63,7 @@ This add-on is source based, with no obfuscation, no binary-only content, and no
 
 ## Documentation
 
-- [User Manual](docs/user-manual.md)
+- [User Manual](docs/user-manual.pdf)
 - [Changelog](CHANGELOG.md)
 
 ## License
