@@ -81,11 +81,12 @@ It is intended for users who work with materials, shaders, procedural textures, 
 
 Instead of rebuilding ramps manually or losing useful color setups inside isolated node trees, DRH - Color Ramp Studio helps turn Color Ramp workflows into a more reusable, editable, and organized process.
 
+## Media preview
+
 <!--
 
 ---
 
-## Media preview
 
 ### Demo video
 
@@ -113,22 +114,38 @@ Recommended size: 1280x720 or 960x540.
 </div>
 -->
 
-<!--
 ### Screenshots
 
 <div align="center">
 
-| Ramp Creation | Ramp Refinement |
+| Generator | Presets
 |---|---|
-| <img width="420" alt="DRH - Color Ramp Studio creation view" src="docs/media/screenshot-create.png" /> | <img width="420" alt="DRH - Color Ramp Studio refinement view" src="docs/media/screenshot-refine.png" /> |
-
-| Image Sampling | Node Workflow |
-|---|---|
-| <img width="420" alt="DRH - Color Ramp Studio image sampling" src="docs/media/screenshot-sampling.png" /> | <img width="420" alt="DRH - Color Ramp Studio node workflow" src="docs/media/screenshot-nodes.png" /> |
+| <img height="420" alt="DRH - Ramp Studio generator" src="docs/media/ScreenShot_04.png" /> | <img height="420" alt="DRH - Ramp Studio presets" src="docs/media/ScreenShot_06.png" />
 
 </div>
--->
 
+<details>
+
+  <summary><strong>More Screenshots...</strong></summary>
+
+<div align="center">
+
+| Default Color Ramp | Node Conversion w/alpha |
+|---|---|
+| <img height="420" alt="DRH - Ramp Studio default color ramp" src="docs/media/ScreenShot_01.png" /> | <img width="height" alt="DRH - Ramp Studio node conversion" src="docs/media/ScreenShot_02.png" />
+
+| Conversion | Tools | 
+|---|---|
+| <img height="420" alt="DRH - Ramp Studio conversion tools" src="docs/media/ScreenShot_05.png" /> | <img height="420" alt="DRH - Ramp Studio tools" src="docs/media/ScreenShot_07.png" /> 
+
+| Ramp Sampler | Context Menu |
+|---|---|
+| <img height="420" alt="DRH - Ramp Studio ramp sampler" src="docs/media/ScreenShot_08.png" /> | <img height="420" alt="DRH - Ramp Studio context menu" src="docs/media/ScreenShot_03.png" />
+
+</div>
+
+</details>
+  
 <!--
 ### Visual preview
 
@@ -170,16 +187,16 @@ Use it to:
 
 ---
 
-## Key features
+### Key Features
 
-- Create Color Ramp workflows for Blender materials and nodes
-- Generate ramp structures for faster look development
-- Sample palettes from selected image files
-- Convert sampled color data into Color Ramp setups
-- Refine color positions, stops, and ramp distribution
-- Restore or reuse useful ramp configurations
-- Transfer ramp data across supported node workflows
-- Support cleaner and more repeatable color-driven Blender setups
+- Image-to-ramp palette extraction for faster look development
+- Non-destructive conversion of native ramps into editable advanced workflows
+- Copy, paste, and transfer tools for reusing ramps across node setups
+- Screen color sampling for palette capture directly from visual references
+- Ramp cleanup and refinement tools for positions, colors, alpha, and distribution
+- Restore tools for safe round-tripping after conversion
+- Preset browser with previews, search, and color-family filtering
+- Works across Shader Editor, Geometry Nodes, and Compositor
 
 ---
 
@@ -188,66 +205,97 @@ Use it to:
 
 ## Full feature list
 
-### Color Ramp creation
+### Ramp Generation
 
-- Create Color Ramp setups more quickly
-- Generate ramp structures for shader and material workflows
-- Build reusable color gradients
-- Support faster experimentation with procedural color designs
-- Reduce repetitive manual ramp setup inside Blender
+- Generate ramps from presets
+- Generate ramps from images
+- Generate ramps from complementary palettes
+- Generate ramps from analogous palettes
+- Generate ramps from greyscale palettes
+- Generate ramps from random palettes
+- Generate ramps from stripe palettes
+- Adjustable stop count
+- Interpolation controls
+- Distribution controls
+- Randomized stop positions
+- Decimal limiting for stop positions
 
-### Palette and image sampling
+### Conversion & Restore
 
-- Select image files for palette-based workflows
-- Sample colors from image references
-- Convert visual references into usable ramp color data
-- Support material, shader, and look-development workflows based on existing images
-- Help artists move from reference image to Blender ramp faster
+- Convert native Color Ramp nodes
+- Build editable group-based ramp workflows
+- Restore converted ramps
+- Safe conversion flow
+- Warning handling for lossy conversion cases
+- Add Group Input links
+- Expose ramp controls to group inputs
 
-### Ramp conversion
+### Sampling & Image Workflows
 
-- Convert sampled color information into ramp-ready setups
-- Transform palette data into organized ramp structures
-- Support workflows where color information needs to be reused across nodes
-- Help reduce manual color picking and repeated setup work
+- Extract palettes from image files
+- Screen color sampler workflow
+- Capture backend diagnostics
+- Merge similar neighboring stops
+- Load a reference image
+- Clear the reference image
+- Open an Image Editor workspace helper
+- Close the temporary Image Editor helper
 
-### Ramp refinement
+### Editing & Cleanup
 
-- Adjust Color Ramp stops and positions
-- Refine color distribution
-- Improve gradient readability and visual balance
-- Support iterative look development
-- Help users tune ramps for materials, masks, procedural effects, and stylized shading
+- Copy ramp
+- Paste ramp
+- Redistribute stops
+- Reverse stops
+- Normalize stops
+- Randomize stops
+- Duplicate midpoints
+- De-duplicate midpoints
+- Simplify sampled stops
+- Limit stop decimals
+- Nudge stop positions
+- Set uniform alpha
+- Create alpha gradients
 
-### Ramp restoration and reuse
+### Color Design Tools
 
-- Restore useful ramp configurations when applicable
-- Reuse color setups across different materials or node workflows
-- Help preserve useful ramp states during experimentation
-- Reduce the need to recreate previous ramp ideas manually
+- Invert colors
+- Sort by luminance
+- Sort by hue
+- Mirror ramp colors
+- Shuffle ramp colors
+- Rotate ramp colors
+- Shift color temperature
+- Apply harmony modes
+- Shape values for contrast
+- Shape values for cinematic looks
+- Shape values for pastel looks
+- Shape values for deep-shadow looks
+- Mutate palettes to softer variants
+- Mutate palettes to darker variants
+- Mutate palettes to vivid variants
+- Mutate palettes to desaturated variants
+- Mutate palettes with warm shifts
+- Mutate palettes with cool shifts
 
-### Node workflow support
+### Smart Builders
 
-- Assist Color Ramp workflows inside Blender node-based contexts
-- Support material and shader use cases
-- Support procedural workflows where ramps control masks, colors, or transitions
-- Help make ramp-heavy node setups easier to manage
+- Highlights / Midtones / Shadows builder
+- Terrain Mask builder
+- Stylized Sky builder
+- Heat Map builder
+- Skin Tones builder
 
-### Workflow organization
+### Presets & Workflow
 
-- Keep Color Ramp work more structured
-- Improve repeatability when building materials or shader looks
-- Help compare and reuse ramp ideas
-- Support faster iteration for artists working with color-driven effects
-
-### Transparency
-
-- Source-based add-on
-- No obfuscation
-- No binary-only content
-- No external services required
-- No account requirements
-- File access is only used to select image files for palette-based workflows
+- Preset browser with thumbnail previews
+- Search presets by name
+- Filter presets by dominant color family
+- Context-menu helpers
+- Sidebar settings workflow
+- Support for Shader Editor
+- Support for Geometry Nodes
+- Support for Compositor
 
 </details>
 
