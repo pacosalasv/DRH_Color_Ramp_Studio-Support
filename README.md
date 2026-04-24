@@ -280,7 +280,7 @@ DRH - Color Ramp Studio is designed for:
 | **Minimum Blender version** | 4.2.0 |
 | **Platforms** | Windows, macOS, Linux |
 | **Release type** | Preparing for public marketplace release |
-| **Support repository** | [DRH DRH - Color Ramp Studio Support](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support) |
+| **Support repository** | [DRH - Color Ramp Studio Support](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support) |
 
 This add-on is production ready and currently pending marketplace approval. Compatibility feedback, usability comments, and workflow suggestions are welcome before public release.
 
