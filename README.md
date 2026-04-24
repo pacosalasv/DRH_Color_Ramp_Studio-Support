@@ -1,12 +1,12 @@
 <div align="center">
-  <img width="680" alt="Color Ramp Studio banner" src="https://github.com/user-attachments/assets/f30d565c-d040-471d-86d9-0b774c0351e1" />
+  <img width="680" alt="DRH - Color Ramp Studio banner" src="https://github.com/user-attachments/assets/f30d565c-d040-471d-86d9-0b774c0351e1" />
 </div>
 
 <br>
 
 <div align="center">
 
-# Color Ramp Studio
+# DRH - Color Ramp Studio
 
 ### Public Support Hub · Documentation · Feedback · Pre-release Validation
 
@@ -39,7 +39,7 @@
 
 <div align="center">
 
-**Color Ramp Studio** helps Blender users build, sample, convert, organize, and refine Color Ramp setups more efficiently.
+**DRH - Color Ramp Studio** helps Blender users build, sample, convert, organize, and refine Color Ramp setups more efficiently.
 
 This repository is the central public hub for support, documentation, issue tracking, compatibility feedback, and community validation before marketplace release.
 
@@ -54,7 +54,7 @@ This repository is the central public hub for support, documentation, issue trac
 
 - [Overview](#overview)
 - [Media preview](#media-preview)
-- [What Color Ramp Studio does](#what-color-ramp-studio-does)
+- [What DRH - Color Ramp Studio does](#what-color-ramp-studio-does)
 - [Key features](#key-features)
 - [Full feature list](#full-feature-list)
 - [Who is it for?](#who-is-it-for)
@@ -75,11 +75,11 @@ This repository is the central public hub for support, documentation, issue trac
 
 ## Overview
 
-**Color Ramp Studio** is a Blender workflow utility designed to make Color Ramp creation, editing, conversion, sampling, and reuse easier across visual workflows.
+**DRH - Color Ramp Studio** is a Blender workflow utility designed to make Color Ramp creation, editing, conversion, sampling, and reuse easier across visual workflows.
 
 It is intended for users who work with materials, shaders, procedural textures, Geometry Nodes, compositing, look development, gradients, palettes, and color-driven effects.
 
-Instead of rebuilding ramps manually or losing useful color setups inside isolated node trees, Color Ramp Studio helps turn Color Ramp workflows into a more reusable, editable, and organized process.
+Instead of rebuilding ramps manually or losing useful color setups inside isolated node trees, DRH - Color Ramp Studio helps turn Color Ramp workflows into a more reusable, editable, and organized process.
 
 <!--
 
@@ -96,7 +96,7 @@ https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID" target="_blank">
-    <img width="720" alt="Color Ramp Studio demo video" src="https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/maxresdefault.jpg" />
+    <img width="720" alt="DRH - Color Ramp Studio demo video" src="https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/maxresdefault.jpg" />
   </a>
   <br>
   <sub>Click the image to watch the demo on YouTube.</sub>
@@ -109,7 +109,7 @@ https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID
 Recommended size: 1280x720 or 960x540.
 
 <div align="center">
-  <img width="720" alt="Color Ramp Studio quick demo" src="docs/media/color-ramp-studio-demo.gif" />
+  <img width="720" alt="DRH - Color Ramp Studio quick demo" src="docs/media/color-ramp-studio-demo.gif" />
 </div>
 -->
 
@@ -120,11 +120,11 @@ Recommended size: 1280x720 or 960x540.
 
 | Ramp Creation | Ramp Refinement |
 |---|---|
-| <img width="420" alt="Color Ramp Studio creation view" src="docs/media/screenshot-create.png" /> | <img width="420" alt="Color Ramp Studio refinement view" src="docs/media/screenshot-refine.png" /> |
+| <img width="420" alt="DRH - Color Ramp Studio creation view" src="docs/media/screenshot-create.png" /> | <img width="420" alt="DRH - Color Ramp Studio refinement view" src="docs/media/screenshot-refine.png" /> |
 
 | Image Sampling | Node Workflow |
 |---|---|
-| <img width="420" alt="Color Ramp Studio image sampling" src="docs/media/screenshot-sampling.png" /> | <img width="420" alt="Color Ramp Studio node workflow" src="docs/media/screenshot-nodes.png" /> |
+| <img width="420" alt="DRH - Color Ramp Studio image sampling" src="docs/media/screenshot-sampling.png" /> | <img width="420" alt="DRH - Color Ramp Studio node workflow" src="docs/media/screenshot-nodes.png" /> |
 
 </div>
 -->
@@ -135,7 +135,7 @@ Recommended size: 1280x720 or 960x540.
 Use this section if you want one large image instead of a gallery.
 
 <div align="center">
-  <img width="760" alt="Color Ramp Studio preview" src="docs/media/color-ramp-studio-preview.png" />
+  <img width="760" alt="DRH - Color Ramp Studio preview" src="docs/media/color-ramp-studio-preview.png" />
 </div>
 -->
 
@@ -151,9 +151,9 @@ Media preview coming soon.
 
 ---
 
-## What Color Ramp Studio does
+## What DRH - Color Ramp Studio does
 
-Color Ramp Studio helps you create, sample, convert, refine, restore, and transfer Color Ramp setups inside Blender.
+DRH - Color Ramp Studio helps you create, sample, convert, refine, restore, and transfer Color Ramp setups inside Blender.
 
 It is not only a simple gradient preset tool. It is designed as a workflow helper for artists and technical users who rely on Color Ramps for materials, procedural effects, masks, stylized looks, terrain, particles, shader variation, and node-based color control.
 
@@ -255,7 +255,7 @@ Use it to:
 
 ## Who is it for?
 
-Color Ramp Studio is designed for:
+DRH - Color Ramp Studio is designed for:
 
 - Blender material artists
 - Shader artists
@@ -280,7 +280,7 @@ Color Ramp Studio is designed for:
 | **Minimum Blender version** | 4.2.0 |
 | **Platforms** | Windows, macOS, Linux |
 | **Release type** | Preparing for public marketplace release |
-| **Support repository** | [DRH Color Ramp Studio Support](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support) |
+| **Support repository** | [DRH DRH - Color Ramp Studio Support](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support) |
 
 This add-on is production ready and currently pending marketplace approval. Compatibility feedback, usability comments, and workflow suggestions are welcome before public release.
 
