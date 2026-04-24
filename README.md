@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="680" alt="DRH - Color Ramp Studio banner" src="https://github.com/user-attachments/assets/f30d565c-d040-471d-86d9-0b774c0351e1" />
+  <img width="680" alt="DRH - Color Ramp Studio banner" src="docs/media/Logo.png" />
 </div>
 
 <br>
@@ -83,10 +83,13 @@ Instead of rebuilding ramps manually or losing useful color setups inside isolat
 
 ## Media preview
 
+<div align="center">
+  <img width="920" alt="DRH - Color Ramp Studio feature preview showing palette generation, native editable conversion, curated presets, and precision editing tools" src="docs/media/Featured_Image.png" />
+</div>
+
 <!--
 
 ---
-
 
 ### Demo video
 
@@ -146,16 +149,6 @@ Recommended size: 1280x720 or 960x540.
 
 </details>
   
-<!--
-### Visual preview
-
-Use this section if you want one large image instead of a gallery.
-
-<div align="center">
-  <img width="760" alt="DRH - Color Ramp Studio preview" src="docs/media/color-ramp-studio-preview.png" />
-</div>
--->
-
 <!--
 Temporary placeholder while media is not available.
 
