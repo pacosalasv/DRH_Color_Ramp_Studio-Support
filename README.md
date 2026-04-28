@@ -12,7 +12,7 @@
 
 **A Blender utility for creating, converting, sampling, refining, and managing Color Ramp workflows.**
 
-![Status](https://img.shields.io/badge/status-production%20ready%2C%20pending%20approval-F59E0B?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-released-22C55E?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.0.0-00B7FF?style=for-the-badge)
 ![Blender](https://img.shields.io/badge/blender-4.2%2B-0B1F4D?style=for-the-badge)
 ![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-EAF2FF?style=for-the-badge&labelColor=0B1F4D&color=EAF2FF)
@@ -316,7 +316,7 @@ DRH - Color Ramp Studio is designed for:
 
 | Item | Details |
 |---|---|
-| **Status** | 🟠 Production Ready, Pending Approval |
+| **Status** | 🟢 Released |
 | **Current version** | 1.0.0 |
 | **Minimum Blender version** | 4.2.0 |
 | **Platforms** | Windows, macOS, Linux |
