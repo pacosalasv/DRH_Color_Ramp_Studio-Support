@@ -1,0 +1,39 @@
+name: Marketplace / distribution problem
+description: Report an installation, listing, package, or delivery problem for DRH - Color Ramp Studio.
+title: "[Distribution]: "
+labels:
+  - marketplace problem
+body:
+  - type: markdown
+    attributes:
+      value: |
+        DRH - Color Ramp Studio is released free on Blendkit. Use this form for listing, installation, or delivery problems.
+
+  - type: input
+    id: product_version
+    attributes:
+      label: Product version
+      placeholder: "Example: 1.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_summary
+    attributes:
+      label: Problem summary
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Actual result
+    validations:
+      required: true
