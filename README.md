@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <img width="680" alt="DRH - Color Ramp Studio banner" src="docs/media/Logo.png" />
 </div>
 
@@ -8,7 +8,7 @@
 
 # DRH - Color Ramp Studio
 
-### Public Support Hub · Documentation · Feedback · Available on Blendkit
+### Public Support Hub · Documentation · Feedback · Available on BlendKit
 
 **Color Ramp generation, conversion, sampling, and editing tools.**
 
@@ -22,7 +22,7 @@
 **Part of the DRH Add-ons ecosystem - Blender tools, updates, and releases.**
 
 [![DRH Add-ons Hub](https://img.shields.io/badge/DRH%20Add--ons%20Hub-Visit%20Hub-1E5BFF?style=for-the-badge&labelColor=0B1F4D)](https://github.com/pacosalasv/DRH_Addons_Hub)
-[![Available on Blendkit](https://img.shields.io/badge/Blendkit-FREE%20Download-0B1F4D?style=for-the-badge)](https://www.blendkit.com/asset-gallery-detail/45ca1690-0ca4-4265-8a35-8b0d69f5dbb6/)
+[![Available on BlendKit](https://img.shields.io/badge/BlendKit-FREE%20Download-0B1F4D?style=for-the-badge)](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/)
 
 </div>
 
@@ -96,35 +96,6 @@ Instead of rebuilding ramps manually or losing useful color setups inside isolat
   <img width="920" alt="DRH - Color Ramp Studio feature preview showing palette generation, native editable conversion, curated presets, and precision editing tools" src="docs/media/Featured_Image.png" />
 </div>
 
-<!--
-
----
-
-### Demo video
-
-Replace `YOUTUBE_VIDEO_ID` with your real YouTube video ID.
-
-Example:
-https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID
-
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID" target="_blank">
-    <img width="720" alt="DRH - Color Ramp Studio demo video" src="https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/maxresdefault.jpg" />
-  </a>
-  <br>
-  <sub>Click the image to watch the demo on YouTube.</sub>
-</div>
--->
-
-<!--
-### Quick demo GIF
-
-Recommended size: 1280x720 or 960x540.
-
-<div align="center">
-  <img width="720" alt="DRH - Color Ramp Studio quick demo" src="docs/media/color-ramp-studio-demo.gif" />
-</div>
--->
 
 ### Screenshots
 
@@ -157,16 +128,7 @@ Recommended size: 1280x720 or 960x540.
 </div>
 
 </details>
-  
-<!--
-Temporary placeholder while media is not available.
 
-<div align="center">
-
-Media preview coming soon.
-
-</div>
--->
 
 ---
 
@@ -330,11 +292,11 @@ DRH - Color Ramp Studio is designed for:
 | **Minimum Blender version** | 4.2.0 |
 | **Platforms** | Windows, macOS, Linux |
 | **Release type** | Free public release |
-| **Official distribution** | Blendkit only |
-| **Free download on Blendkit** | [DRH - Color Ramp Studio](https://www.blendkit.com/asset-gallery-detail/45ca1690-0ca4-4265-8a35-8b0d69f5dbb6/) |
+| **Official distribution** | BlendKit only |
+| **Free download on BlendKit** | [DRH - Color Ramp Studio](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/) |
 | **Support repository** | [DRH - Color Ramp Studio Support](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support) |
 
-DRH - Color Ramp Studio is free for everyone. Official releases and installable packages are distributed exclusively through Blendkit. This GitHub repository is the public support and documentation hub; it does not host official release packages. Use it for compatibility feedback, bug reports, documentation, and workflow suggestions across supported Blender versions.
+DRH - Color Ramp Studio is free for everyone. Official releases and installable packages are distributed exclusively through BlendKit. This GitHub repository is the public support and documentation hub; it does not host official release packages. Use it for compatibility feedback, bug reports, documentation, and workflow suggestions across supported Blender versions.
 
 ---
 
@@ -352,7 +314,7 @@ Feedback is especially welcome on:
 - Compatibility concerns
 - Installation experience
 - Documentation clarity
-- Blendkit listing or download feedback
+- BlendKit listing or download feedback
 - Workflow expectations for future versions
 
 Useful feedback examples:
@@ -371,7 +333,7 @@ Useful feedback examples:
 
 ## Quick links
 
-- [Download DRH - Color Ramp Studio free on Blendkit](https://www.blendkit.com/asset-gallery-detail/45ca1690-0ca4-4265-8a35-8b0d69f5dbb6/)
+- [Download DRH - Color Ramp Studio free on BlendKit](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/)
 - [Support repository](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support)
 - [Ask a question in Discussions](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/discussions)
 - [Open a new issue](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues/new/choose)
@@ -413,7 +375,7 @@ For compatibility issues, please also include:
 - FAQ
 - Suggestions
 - Release feedback
-- Blendkit listing or download feedback
+- BlendKit listing or download feedback
 - Workflow ideas
 
 ---
@@ -424,7 +386,7 @@ For compatibility issues, please also include:
 - Reproducible compatibility problems
 - Feature requests
 - Regressions
-- Blendkit listing or download problems
+- BlendKit listing or download problems
 - Documentation errors
 
 ---
@@ -487,9 +449,9 @@ DRH - Color Ramp Studio is **free for everyone**.
 
 Official download and release distribution:
 
-- [Blendkit - Free Download](https://www.blendkit.com/asset-gallery-detail/45ca1690-0ca4-4265-8a35-8b0d69f5dbb6/)
+- [BlendKit - Free Download](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/)
 
-Official installable releases are distributed exclusively through Blendkit. This GitHub repository is intentionally kept as a support, documentation, feedback, and issue-tracking hub rather than a release-download mirror.
+Official installable releases are distributed exclusively through BlendKit. This GitHub repository is intentionally kept as a support, documentation, feedback, and issue-tracking hub rather than a release-download mirror.
 
 This GitHub repository remains the central public location for:
 

@@ -12,7 +12,7 @@ For confirmed technical problems, use GitHub Issues:
 - Feature requests
 - Marketplace or delivery problems
 
-Official installable releases are distributed through Blendkit.
+Official installable releases are distributed through BlendKit.
 
 Please do not include private payment details, account credentials, or LICENSE keys in public posts.
 

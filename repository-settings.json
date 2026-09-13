@@ -1,0 +1,18 @@
+{
+  "description": "Support and documentation for DRH - Color Ramp Studio: presets, sampling, conversion, gradients, and Blender node workflows.",
+  "homepage": "https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/",
+  "visibility": "public",
+  "has_issues": true,
+  "has_discussions": true,
+  "topics": [
+    "blender",
+    "blender-addon",
+    "color-ramp",
+    "color-tools",
+    "gradient-tools",
+    "geometry-nodes",
+    "shader-editor",
+    "technical-support",
+    "drh"
+  ]
+}
