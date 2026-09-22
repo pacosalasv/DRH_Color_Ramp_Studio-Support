@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
   <img width="680" alt="DRH - Color Ramp Studio banner" src="docs/media/Logo.png" />
 </div>
 
@@ -8,9 +8,9 @@
 
 # DRH - Color Ramp Studio
 
-### Public Support Hub · Documentation · Feedback · Available on BlendKit
+### Support · Documentation · Feedback · Available on BlendKit
 
-**Color Ramp generation, conversion, sampling, and editing tools.**
+Color Ramp generation, conversion, sampling, and editing tools.
 
 ![Status](https://img.shields.io/badge/status-Released-22C55E?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.0.0-00B7FF?style=for-the-badge)
@@ -19,7 +19,7 @@
 
 <br>
 
-**Part of the DRH Add-ons ecosystem - Blender tools, updates, and releases.**
+DRH Blender Tools: support, documentation, and release information.
 
 [![DRH Add-ons Hub](https://img.shields.io/badge/DRH%20Add--ons%20Hub-Visit%20Hub-1E5BFF?style=for-the-badge&labelColor=0B1F4D)](https://github.com/pacosalasv/DRH_Addons_Hub)
 [![Available on BlendKit](https://img.shields.io/badge/BlendKit-FREE%20Download-0B1F4D?style=for-the-badge)](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/)
@@ -30,7 +30,7 @@
 
 <div align="center">
 
-**DRH - Color Ramp Studio** helps Blender users build, sample, convert, organize, and refine Color Ramp setups more efficiently.
+DRH - Color Ramp Studio helps Blender users build, sample, convert, organize, and refine Color Ramp setups more efficiently.
 
 This repository is the central public hub for support, documentation, issue tracking, compatibility feedback, and release feedback for DRH - Color Ramp Studio.
 
@@ -38,53 +38,9 @@ This repository is the central public hub for support, documentation, issue trac
 
 ---
 
-## Support DRH Development
-
-If **DRH - Color Ramp Studio** helps you work faster or makes your Blender workflow more reliable, you can support ongoing DRH development on **Ko-fi**. Your contribution helps fund maintenance, Blender compatibility updates, documentation, testing, and the development of new production-focused tools across the DRH ecosystem. Support is completely optional, and bug reports, compatibility feedback, and workflow suggestions are always welcome.
-
-<div align="center">
-  <a href="https://ko-fi.com/pacosalasv">
-    <img width="520" alt="Donate on Ko-fi to support DRH" src="docs/media/kofi_donate.png" />
-  </a>
-</div>
-
-<div align="center">
-
-[**Support DRH on Ko-fi**](https://ko-fi.com/pacosalasv)
-
-</div>
-
----
-
-<details>
-  <summary><strong>📚 Table of Contents</strong></summary>
-
-## Menu
-
-- [Overview](#overview)
-- [Media preview](#media-preview)
-- [What DRH - Color Ramp Studio does](#what-color-ramp-studio-does)
-- [Key features](#key-features)
-- [Full feature list](#full-feature-list)
-- [Who is it for?](#who-is-it-for)
-- [Current status](#current-status)
-- [Feedback and compatibility reports](#feedback-and-compatibility-reports)
-- [Quick links](#quick-links)
-- [Before you post](#before-you-post)
-- [Where to post](#where-to-post)
-- [Support policy](#support-policy)
-- [Technical notes](#technical-notes)
-- [Availability](#availability)
-- [Documentation](#documentation)
-- [LICENSE](#LICENSE)
-
-</details>
-
----
-
 ## Overview
 
-**DRH - Color Ramp Studio** is a Blender workflow utility designed to make Color Ramp creation, editing, conversion, sampling, and reuse easier across visual workflows.
+DRH - Color Ramp Studio is a Blender workflow utility designed to make Color Ramp creation, editing, conversion, sampling, and reuse easier across visual workflows.
 
 It is intended for users who work with materials, shaders, procedural textures, Geometry Nodes, compositing, look development, gradients, palettes, and color-driven effects.
 
@@ -95,7 +51,6 @@ Instead of rebuilding ramps manually or losing useful color setups inside isolat
 <div align="center">
   <img width="920" alt="DRH - Color Ramp Studio feature preview showing palette generation, native editable conversion, curated presets, and precision editing tools" src="docs/media/Featured_Image.png" />
 </div>
-
 
 ### Screenshots
 
@@ -140,289 +95,176 @@ It is not only a simple gradient preset tool. It is designed as a workflow helpe
 
 Use it to:
 
-- Create Color Ramp setups faster
-- Generate useful ramp variations
-- Sample colors from image-based sources
-- Convert color information into usable ramps
-- Refine ramp stops and color distribution
-- Restore or reuse previous ramp setups
-- Transfer Color Ramp data across supported workflows
-- Improve shader, material, and procedural color workflows
+| Details |
+|---|
+| Create Color Ramp setups faster |
+| Generate useful ramp variations |
+| Sample colors from image-based sources |
+| Convert color information into usable ramps |
+| Refine ramp stops and color distribution |
+| Restore or reuse previous ramp setups |
+| Transfer Color Ramp data across supported workflows |
+| Improve shader, material, and procedural color workflows |
 
 ---
 
-## Key features
+## Capabilities
 
-- Image-to-ramp palette extraction for faster look development
-- Non-destructive conversion of native ramps into editable advanced workflows
-- Copy, paste, and transfer tools for reusing ramps across node setups
-- Screen color sampling for palette capture directly from visual references
-- Ramp cleanup and refinement tools for positions, colors, alpha, and distribution
-- Restore tools for safe round-tripping after conversion
-- Preset browser with previews, search, and color-family filtering
-- Works across Shader Editor, Geometry Nodes, and Compositor
+| Details |
+|---|
+| Image-to-ramp palette extraction for faster look development |
+| Non-destructive conversion of native ramps into editable advanced workflows |
+| Copy, paste, and transfer tools for reusing ramps across node setups |
+| Screen color sampling for palette capture directly from visual references |
+| Ramp cleanup and refinement tools for positions, colors, alpha, and distribution |
+| Restore tools for safe round-tripping after conversion |
+| Preset browser with previews, search, and color-family filtering |
+| Works across Shader Editor, Geometry Nodes, and Compositor |
 
 ---
 
 <details>
-  <summary><strong>🧩 Full feature list</strong></summary>
+  <summary>Feature reference</summary>
 
-## Full feature list
+## Feature reference
 
-### Ramp Generation
+### Ramp generation
+| Details |
+|---|
+| Generate ramps from presets |
+| Generate ramps from images |
+| Generate ramps from complementary palettes |
+| Generate ramps from analogous palettes |
+| Generate ramps from greyscale palettes |
+| Generate ramps from random palettes |
+| Generate ramps from stripe palettes |
+| Adjustable stop count |
+| Interpolation controls |
+| Distribution controls |
+| Randomized stop positions |
+| Decimal limiting for stop positions |
 
-- Generate ramps from presets
-- Generate ramps from images
-- Generate ramps from complementary palettes
-- Generate ramps from analogous palettes
-- Generate ramps from greyscale palettes
-- Generate ramps from random palettes
-- Generate ramps from stripe palettes
-- Adjustable stop count
-- Interpolation controls
-- Distribution controls
-- Randomized stop positions
-- Decimal limiting for stop positions
+### Conversion and restore
+| Details |
+|---|
+| Convert native Color Ramp nodes |
+| Build editable group-based ramp workflows |
+| Restore converted ramps |
+| Safe conversion flow |
+| Warning handling for lossy conversion cases |
+| Add Group Input links |
+| Expose ramp controls to group inputs |
 
-### Conversion & Restore
+### Sampling and image workflows
+| Details |
+|---|
+| Extract palettes from image files |
+| Screen color sampler workflow |
+| Capture backend diagnostics |
+| Merge similar neighboring stops |
+| Load a reference image |
+| Clear the reference image |
+| Open an Image Editor workspace helper |
+| Close the temporary Image Editor helper |
 
-- Convert native Color Ramp nodes
-- Build editable group-based ramp workflows
-- Restore converted ramps
-- Safe conversion flow
-- Warning handling for lossy conversion cases
-- Add Group Input links
-- Expose ramp controls to group inputs
+### Editing and cleanup
+| Details |
+|---|
+| Copy ramp |
+| Paste ramp |
+| Redistribute stops |
+| Reverse stops |
+| Normalize stops |
+| Randomize stops |
+| Duplicate midpoints |
+| De-duplicate midpoints |
+| Simplify sampled stops |
+| Limit stop decimals |
+| Nudge stop positions |
+| Set uniform alpha |
+| Create alpha gradients |
 
-### Sampling & Image Workflows
+### Color design tools
+| Details |
+|---|
+| Invert colors |
+| Sort by luminance |
+| Sort by hue |
+| Mirror ramp colors |
+| Shuffle ramp colors |
+| Rotate ramp colors |
+| Shift color temperature |
+| Apply harmony modes |
+| Shape values for contrast |
+| Shape values for cinematic looks |
+| Shape values for pastel looks |
+| Shape values for deep-shadow looks |
+| Mutate palettes to softer variants |
+| Mutate palettes to darker variants |
+| Mutate palettes to vivid variants |
+| Mutate palettes to desaturated variants |
+| Mutate palettes with warm shifts |
+| Mutate palettes with cool shifts |
 
-- Extract palettes from image files
-- Screen color sampler workflow
-- Capture backend diagnostics
-- Merge similar neighboring stops
-- Load a reference image
-- Clear the reference image
-- Open an Image Editor workspace helper
-- Close the temporary Image Editor helper
+### Smart builders
+| Details |
+|---|
+| Highlights / Midtones / Shadows builder |
+| Terrain Mask builder |
+| Stylized Sky builder |
+| Heat Map builder |
+| Skin Tones builder |
 
-### Editing & Cleanup
-
-- Copy ramp
-- Paste ramp
-- Redistribute stops
-- Reverse stops
-- Normalize stops
-- Randomize stops
-- Duplicate midpoints
-- De-duplicate midpoints
-- Simplify sampled stops
-- Limit stop decimals
-- Nudge stop positions
-- Set uniform alpha
-- Create alpha gradients
-
-### Color Design Tools
-
-- Invert colors
-- Sort by luminance
-- Sort by hue
-- Mirror ramp colors
-- Shuffle ramp colors
-- Rotate ramp colors
-- Shift color temperature
-- Apply harmony modes
-- Shape values for contrast
-- Shape values for cinematic looks
-- Shape values for pastel looks
-- Shape values for deep-shadow looks
-- Mutate palettes to softer variants
-- Mutate palettes to darker variants
-- Mutate palettes to vivid variants
-- Mutate palettes to desaturated variants
-- Mutate palettes with warm shifts
-- Mutate palettes with cool shifts
-
-### Smart Builders
-
-- Highlights / Midtones / Shadows builder
-- Terrain Mask builder
-- Stylized Sky builder
-- Heat Map builder
-- Skin Tones builder
-
-### Presets & Workflow
-
-- Preset browser with thumbnail previews
-- Search presets by name
-- Filter presets by dominant color family
-- Context-menu helpers
-- Sidebar settings workflow
-- Support for Shader Editor
-- Support for Geometry Nodes
-- Support for Compositor
+### Presets and workflow
+| Details |
+|---|
+| Preset browser with thumbnail previews |
+| Search presets by name |
+| Filter presets by dominant color family |
+| Context-menu helpers |
+| Sidebar settings workflow |
+| Support for Shader Editor |
+| Support for Geometry Nodes |
+| Support for Compositor |
 
 </details>
 
 ---
 
-## Who is it for?
+## Intended users
 
 DRH - Color Ramp Studio is designed for:
 
-- Blender material artists
-- Shader artists
-- Procedural texture artists
-- Geometry Nodes users
-- Compositing users
-- Look development artists
-- Environment artists
-- Stylized rendering artists
-- Technical artists
-- Asset creators
-- Users who work frequently with gradients, palettes, masks, and color-driven node setups
+| Details |
+|---|
+| Blender material artists |
+| Shader artists |
+| Procedural texture artists |
+| Geometry Nodes users |
+| Compositing users |
+| Look development artists |
+| Environment artists |
+| Stylized rendering artists |
+| Technical artists |
+| Asset creators |
+| Users who work frequently with gradients, palettes, masks, and color-driven node setups |
 
 ---
 
-## Current status
+## Status
 
 | Item | Details |
 |---|---|
-| **Status** | 🟢 Released |
-| **Current version** | 1.0.0 |
-| **Minimum Blender version** | 4.2.0 |
-| **Platforms** | Windows, macOS, Linux |
-| **Release type** | Free public release |
-| **Official distribution** | BlendKit only |
-| **Free download on BlendKit** | [DRH - Color Ramp Studio](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/) |
-| **Support repository** | [DRH - Color Ramp Studio Support](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support) |
+| Status | 🟢 Released |
+| Current version | 1.0.0 |
+| Minimum Blender version | 4.2.0 |
+| Platforms | Windows, macOS, Linux |
+| Release type | Free public release |
+| Official distribution | BlendKit only |
+| Free download on BlendKit | [DRH - Color Ramp Studio](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/) |
+| Support repository | [DRH - Color Ramp Studio Support](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support) |
 
 DRH - Color Ramp Studio is free for everyone. Official releases and installable packages are distributed exclusively through BlendKit. This GitHub repository is the public support and documentation hub; it does not host official release packages. Use it for compatibility feedback, bug reports, documentation, and workflow suggestions across supported Blender versions.
-
----
-
-## Feedback and compatibility reports
-
-This repository is open for public feedback, compatibility reports, support questions, and workflow suggestions across releases.
-
-Feedback is especially welcome on:
-
-- Feature usefulness
-- Missing ramp workflow options
-- Image sampling expectations
-- Material and shader workflow needs
-- Geometry Nodes or compositing use cases
-- Compatibility concerns
-- Installation experience
-- Documentation clarity
-- BlendKit listing or download feedback
-- Workflow expectations for future versions
-
-Useful feedback examples:
-
-> “I would use this to create ramps from reference images.”
-
-> “This should support saving favorite ramp presets.”
-
-> “I need a way to transfer ramps between materials.”
-
-> “This would be useful if it works well with Geometry Nodes.”
-
-> “The sampling workflow should include control over number of colors.”
-
----
-
-## Quick links
-
-- [Download DRH - Color Ramp Studio free on BlendKit](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/)
-- [Support repository](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support)
-- [Ask a question in Discussions](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/discussions)
-- [Open a new issue](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues/new/choose)
-- [Report a bug](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues/new?template=bug_report.yml)
-- [Request a feature](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues/new?template=feature_request.yml)
-- [Report a compatibility issue](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues/new?template=compatibility_issue.yml)
-
----
-
-## Before you post
-
-Please include as much of the following information as possible:
-
-- Add-on version
-- Blender version
-- Operating system
-- Installation method
-- Clear steps to reproduce
-- Expected result
-- Actual result
-- Error message, screenshot, or console output when available
-
-For compatibility issues, please also include:
-
-- Blender build type, if known
-- Portable or installed Blender version
-- Node editor context where the issue happened
-- Whether the issue happens with a clean Blender configuration
-- Whether the issue involves a specific image file, material, node tree, or scene setup
-
----
-
-## Use Discussions for
-
-- Questions
-- How-to topics
-- Installation help
-- Compatibility checks
-- FAQ
-- Suggestions
-- Release feedback
-- BlendKit listing or download feedback
-- Workflow ideas
-
----
-
-## Use Issues for
-
-- Confirmed bugs
-- Reproducible compatibility problems
-- Feature requests
-- Regressions
-- BlendKit listing or download problems
-- Documentation errors
-
----
-
-## Where to post
-
-Open a **Discussion** for:
-
-- General questions
-- Setup help
-- Workflow advice
-- Suggestions
-- Release feedback
-
-Open an **Issue** for:
-
-- Confirmed bugs
-- Reproducible compatibility problems
-- Regressions
-- Feature requests
-- Documentation problems
-
----
-
-## Support policy
-
-This repository is a public support hub. The add-on is free and does not require a LICENSE key.
-
-Do not post:
-
-- Private account details
-- Confidential production files
-- Private client files
-- Sensitive system information
-
-If a private file is required to reproduce an issue, please describe the problem first and wait for further instructions.
 
 ---
 
@@ -445,7 +287,7 @@ The add-on is intended to work locally inside Blender.
 
 ## Availability
 
-DRH - Color Ramp Studio is **free for everyone**.
+DRH - Color Ramp Studio is free for everyone.
 
 Official download and release distribution:
 
@@ -455,12 +297,14 @@ Official installable releases are distributed exclusively through BlendKit. This
 
 This GitHub repository remains the central public location for:
 
-- Support
-- Documentation
-- Issue tracking
-- Compatibility reports
-- Public feedback
-- Release notes
+| Details |
+|---|
+| Support |
+| Documentation |
+| Issue tracking |
+| Compatibility reports |
+| Public feedback |
+| Release notes |
 
 ---
 
@@ -471,20 +315,23 @@ This GitHub repository remains the central public location for:
 
 ---
 
-## LICENSE
 
-This repository is distributed under **GPL-3.0-or-later**.
+## Support
+
+Use [GitHub Discussions](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/discussions) for setup questions, workflow guidance, and general feedback. Use [GitHub Issues](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues/new/choose) for reproducible bugs, regressions, compatibility problems, and focused feature requests.
+
+Do not post credentials, payment information, license keys, confidential production files, private client material, or sensitive local paths.
+
+Detailed guidance is available in [SUPPORT.md](SUPPORT.md).
+
+## Support DRH development
+
+Development support is optional. Contributions through [Ko-fi](https://ko-fi.com/pacosalasv) help cover maintenance, Blender compatibility work, documentation, and testing.
+
+## License
+
+This repository is distributed under GPL-3.0-or-later.
 
 ---
 
 <div align="center">
-
-### DRH Add-ons
-
-**Blender tools, support, updates, and releases.**
-
-Built for clean workflows, practical utilities, and production-friendly Blender setups.
-
-[![DRH Add-ons Hub](https://img.shields.io/badge/DRH%20Add--ons%20Hub-Visit%20Hub-1E5BFF?style=for-the-badge&labelColor=0B1F4D)](https://github.com/pacosalasv/DRH_Addons_Hub)
-
-</div>

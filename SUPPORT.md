@@ -1,23 +1,21 @@
 # Support
 
-For public support, please use GitHub Discussions:
-- Questions
-- Installation help
-- Compatibility checks
-- Workflow guidance
-
-For confirmed technical problems, use GitHub Issues:
-- Bugs
-- Regressions
-- Feature requests
-- Marketplace or delivery problems
+DRH - Color Ramp Studio status: Released.
 
 Official installable releases are distributed through BlendKit.
 
-Please do not include private payment details, account credentials, or LICENSE keys in public posts.
+## Where to ask for help
 
-## Support DRH Development
+Use [GitHub Discussions](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/discussions) for installation questions, workflow guidance, report interpretation, compatibility checks, and general product feedback.
 
-If **DRH - Color Ramp Studio** is useful in your workflow, you can support continued development, maintenance, Blender compatibility work, documentation, and testing on Ko-fi:
+Use [GitHub Issues](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues/new/choose) for reproducible bugs, regressions, compatibility problems, focused feature requests, and distribution or listing problems.
 
-https://ko-fi.com/pacosalasv
+When opening an issue, include the add-on version, Blender version, operating system, installation method, steps to reproduce, expected result, actual result, and any relevant error output or screenshot.
+
+## Public information only
+
+Do not post credentials, payment information, license keys, confidential production files, private client material, or sensitive local paths. Describe the problem first if reproduction may require a private file.
+
+## Development support
+
+Contributions through [Ko-fi](https://ko-fi.com/pacosalasv) are optional and help cover maintenance, Blender compatibility work, documentation, and testing.
