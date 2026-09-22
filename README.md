@@ -310,28 +310,38 @@ This GitHub repository remains the central public location for:
 
 ## Documentation
 
-- [User Manual](docs/manual/user-manual.pdf)
-- [Changelog](CHANGELOG.md)
-
----
-
+- [User manual](docs/manual/user-manual.pdf)
+- [Manual changelog](docs/manual/manual-changelog.md)
+- [Product changelog](CHANGELOG.md)
+- [Support guide](SUPPORT.md)
 
 ## Support
 
-Use [GitHub Discussions](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/discussions) for setup questions, workflow guidance, and general feedback. Use [GitHub Issues](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues/new/choose) for reproducible bugs, regressions, compatibility problems, and focused feature requests.
+Use [GitHub Discussions](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/discussions) for setup questions, workflow guidance, usage help, and general feedback. Use [GitHub Issues](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues/new/choose) for reproducible bugs, regressions, compatibility problems, and focused feature requests.
 
-Do not post credentials, payment information, license keys, confidential production files, private client material, or sensitive local paths.
-
-Detailed guidance is available in [SUPPORT.md](SUPPORT.md).
+See [SUPPORT.md](SUPPORT.md) for the shared DRH support format, the information to include in a report, and public-information guidance.
 
 ## Support DRH development
 
-Development support is optional. Contributions through [Ko-fi](https://ko-fi.com/pacosalasv) help cover maintenance, Blender compatibility work, documentation, and testing.
+DRH development support is optional. Ko-fi contributions help cover maintenance, Blender compatibility work, documentation, testing, and continued development of free tools.
+
+<div align="center">
+  <a href="https://ko-fi.com/pacosalasv">
+    <img width="520" alt="Support DRH development on Ko-fi" src="docs/media/kofi_donate.png" />
+  </a>
+</div>
+
+## Ecosystem links
+
+- [DRH Add-ons Hub](https://github.com/pacosalasv/DRH_Addons_Hub)
+- [BlendKit](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/)
+- [Paco Salas | DRH on GitHub](https://github.com/pacosalasv)
+- [Ko-fi](https://ko-fi.com/pacosalasv)
 
 ## License
 
-This repository is distributed under GPL-3.0-or-later.
+This repository is distributed under GPL-3.0-or-later. See [LICENSE](LICENSE).
 
 ---
 
-<div align="center">
+Authored by Paco Salas | DRH.
