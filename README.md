@@ -20,21 +20,7 @@ DRH - Color Ramp Studio is a Blender workflow utility designed to make Color Ram
 
 It is intended for users who work with materials, shaders, procedural textures, Geometry Nodes, compositing, look development, gradients, palettes, and color-driven effects.
 
-## Product status
-
-| Item | Details |
-|---|---|
-| Status | **Released** |
-| Version | 1.0.0 |
-| Blender | 4.2+ |
-| Platforms | Windows, macOS, Linux |
-| Availability | Free public release. |
-| Distribution | Official installable releases are distributed through the linked download page. |
-| Repository role | Documentation, support, issue tracking, compatibility feedback, and product feedback |
-
-GitHub is used for documentation, support, issues, and release information; installable packages are not mirrored here.
-
-## Capabilities
+## Key features
 
 | Details |
 |---|
@@ -47,25 +33,12 @@ GitHub is used for documentation, support, issues, and release information; inst
 | Preset browser with previews, search, and color-family filtering |
 | Works across Shader Editor, Geometry Nodes, and Compositor |
 
-## Media
-
-Primary product screenshots are shown below. Additional screenshots, when present, remain in `docs/media/`.
-
-<div align="center">
-  <img width="420" alt="DRH - Color Ramp Studio ScreenShot 01" src="docs/media/ScreenShot_01.png" />
-  <img width="420" alt="DRH - Color Ramp Studio ScreenShot 02" src="docs/media/ScreenShot_02.png" />
-  <img width="420" alt="DRH - Color Ramp Studio ScreenShot 03" src="docs/media/ScreenShot_03.png" />
-  <img width="420" alt="DRH - Color Ramp Studio ScreenShot 04" src="docs/media/ScreenShot_04.png" />
-</div>
-
-Additional repository screenshots: `ScreenShot_05.png`, `ScreenShot_06.png`, `ScreenShot_07.png`, `ScreenShot_08.png`.
-
-## Product reference
+## Detailed features
 
 <details>
-<summary>Open detailed feature reference</summary>
+<summary>Open detailed features</summary>
 
-### Feature reference
+### Feature details
 
 #### Ramp generation
 | Details |
@@ -168,6 +141,29 @@ Additional repository screenshots: `ScreenShot_05.png`, `ScreenShot_06.png`, `Sc
 
 </details>
 
+## Product status
+
+| Item | Details |
+|---|---|
+| Status | **Released** |
+| Version | 1.0.0 |
+| Blender | 4.2+ |
+| Platforms | Windows, macOS, Linux |
+| Availability | Free public release. |
+| Distribution | Official installable releases are distributed through the linked download page. |
+| Repository role | Documentation, support, issue tracking, compatibility feedback, and product feedback |
+
+## Media
+
+Product screenshots:
+
+<div align="center">
+  <img width="420" alt="DRH - Color Ramp Studio ScreenShot 01" src="docs/media/ScreenShot_01.png" />
+  <img width="420" alt="DRH - Color Ramp Studio ScreenShot 02" src="docs/media/ScreenShot_02.png" />
+  <img width="420" alt="DRH - Color Ramp Studio ScreenShot 03" src="docs/media/ScreenShot_03.png" />
+  <img width="420" alt="DRH - Color Ramp Studio ScreenShot 04" src="docs/media/ScreenShot_04.png" />
+</div>
+
 ## Documentation and support
 
 | Resource | Link |
@@ -194,7 +190,8 @@ Ko-fi support is optional. Contributions help fund maintenance, Blender compatib
 |---|---|
 | Download | [Official product page](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/) |
 | DRH Add-ons Hub | [Catalog and roadmap](https://github.com/pacosalasv/DRH_Addons_Hub) |
-| Paco Salas | DRH | [GitHub profile](https://github.com/pacosalasv) |
+| Paco Salas | DRH | [Official site](https://pacosalasv.blogspot.com/) |
+| BlendKit | [DRH Blender downloads](https://www.blendkit.com/?query=author_id:205846) |
 | Ko-fi | [Support development](https://ko-fi.com/pacosalasv) |
 
 ## License
