@@ -16,7 +16,7 @@ This repository follows the common public support workflow used across the DRH B
 
 | Information | What to provide |
 |---|---|
-| Product version | `1.0.0` or the exact version you are using |
+| Product version | `1.1.0` or the exact version you are using |
 | Blender version | Exact Blender version/build |
 | Operating system | Windows, macOS, Linux |
 | Reproduction | Clear steps from a clean or known state |
@@ -34,7 +34,7 @@ Do not post passwords, API keys, private account details, confidential client fi
 
 ## Release and distribution status
 
-**Released · 1.0.0.** Use the linked product page for the current public release.
+**Released · 1.1.0.** Use the linked product page for the current public release.
 
 ## Support development
 

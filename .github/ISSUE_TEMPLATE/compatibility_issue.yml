@@ -8,7 +8,7 @@ body:
     id: addon_version
     attributes:
       label: Add-on version
-      placeholder: "Example: 1.0.0"
+      placeholder: "Example: 1.1.0"
     validations:
       required: true
 

@@ -14,7 +14,7 @@ body:
     attributes:
       label: Add-on version
       description: Enter the installed DRH - Color Ramp Studio version.
-      placeholder: "Example: 1.0.0"
+      placeholder: "Example: 1.1.0"
     validations:
       required: true
 

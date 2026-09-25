@@ -4,9 +4,9 @@
 
 # DRH - Color Ramp Studio
 
-**Color Ramp generation, conversion, sampling, and editing tools**
+**Create, sample, refine, convert, restore, and reuse Color Ramps faster across Blender**
 
-![Status](https://img.shields.io/badge/Status-Released-22C55E?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-1.0.0-00B7FF?style=for-the-badge) ![Blender](https://img.shields.io/badge/Blender-4.2%2B-0B1F4D?style=for-the-badge) ![Platforms](https://img.shields.io/badge/Platforms-Windows%2C%20macOS%2C%20Linux-334155?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Released-22C55E?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-1.1.0-00B7FF?style=for-the-badge) ![Blender](https://img.shields.io/badge/Blender-4.2%2B-0B1F4D?style=for-the-badge) ![Platforms](https://img.shields.io/badge/Platforms-Windows%2C%20macOS%2C%20Linux-334155?style=for-the-badge)
 
 [![Download](https://img.shields.io/badge/Download-Open-0B1F4D?style=for-the-badge)](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/) [![Support](https://img.shields.io/badge/Support-Issues%20%26%20Discussions-1E5BFF?style=for-the-badge)](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues) [![DRH Add-ons Hub](https://img.shields.io/badge/DRH%20Add-ons%20Hub-Visit-334155?style=for-the-badge)](https://github.com/pacosalasv/DRH_Addons_Hub)
 
@@ -16,128 +16,82 @@
 
 ## Overview
 
-DRH - Color Ramp Studio is a Blender workflow utility designed to make Color Ramp creation, editing, conversion, sampling, and reuse easier across visual workflows.
+DRH - Color Ramp Studio is a focused Blender toolkit for building, sampling, converting, refining, and reusing Color Ramps across Shader Editor, Geometry Nodes, and Compositor workflows.
 
-It is intended for users who work with materials, shaders, procedural textures, Geometry Nodes, compositing, look development, gradients, palettes, and color-driven effects.
+Version 1.1.0 strengthens color accuracy, preset discovery, image-palette extraction, conversion safety, and day-to-day ramp creation. The result is a faster path from a palette idea or visual reference to a usable Blender Color Ramp without giving up a practical route back to native nodes.
 
 ## Key features
 
-| Details |
-|---|
-| Image-to-ramp palette extraction for faster look development |
-| Non-destructive conversion of native ramps into editable advanced workflows |
-| Copy, paste, and transfer tools for reusing ramps across node setups |
-| Screen color sampling for palette capture directly from visual references |
-| Ramp cleanup and refinement tools for positions, colors, alpha, and distribution |
-| Restore tools for safe round-tripping after conversion |
-| Preset browser with previews, search, and color-family filtering |
-| Works across Shader Editor, Geometry Nodes, and Compositor |
+| Capability | What it adds to the workflow |
+|---|---|
+| Curated preset library | Browse reusable ramps by category, text search, and dominant color family, including a dedicated Grayscale category. |
+| Generate workflow | Create a Color Sampler workflow or prepare a Preset workflow from one clear entry point. |
+| Image and screen sampling | Turn visual references into practical ramp starting points with safer image handling and bounded sampling. |
+| Native conversion and restore | Convert Color Ramp nodes into editable group-based setups and restore them to native ramps when needed. |
+| Color-aware editing | Perform hue, saturation, harmony, temperature-style, and palette mutations in an sRGB-aware workflow before values return to Blender linear RGB. |
+| Ramp utilities | Copy, paste, reverse, normalize, redistribute, randomize, simplify, sort, mirror, rotate, nudge, and refine stops. |
+| Alpha controls | Set uniform alpha, build alpha gradients, and preserve alpha-focused editing during conversion workflows. |
+| Multi-editor support | Use the toolset across Shader Editor, Geometry Nodes, and Compositor contexts where supported node types are available. |
+
+## What's new in 1.1.0
+
+- Standardized preset, hex, screen-sampled, and image-sampled colors around an explicit sRGB-to-linear pipeline.
+- Expanded preset discovery with category filtering that combines with text search and color-family filtering.
+- Added a dedicated Grayscale preset category and refreshed preset curation to reduce visually redundant families.
+- Improved the Generator flow so Preset mode prepares a native ramp and applies preset colors only when **Generate Ramp** is used.
+- Places new ramps at the center of the visible Node Editor canvas instead of relying on the node cursor.
+- Reworked image palette extraction to use an add-on-owned temporary image datablock and bounded pixel sampling.
+- Made generated-group conversion cleanup transactional so failed conversions do not leave unwanted nodes or orphaned generated data.
+- Preserved existing scene settings during registration and improved migration behavior for retired preset names.
+- Namespaced generated runtime properties and improved diagnostics/logging for maintainability.
 
 ## Detailed features
 
 <details>
 <summary>Open detailed features</summary>
 
-### Feature details
+### Generation and presets
 
-#### Ramp generation
-| Details |
-|---|
-| Generate ramps from presets |
-| Generate ramps from images |
-| Generate ramps from complementary palettes |
-| Generate ramps from analogous palettes |
-| Generate ramps from greyscale palettes |
-| Generate ramps from random palettes |
-| Generate ramps from stripe palettes |
-| Adjustable stop count |
-| Interpolation controls |
-| Distribution controls |
-| Randomized stop positions |
-| Decimal limiting for stop positions |
+- Generate ramps from curated presets, images, complementary palettes, analogous palettes, grayscale palettes, random palettes, and stripe palettes.
+- Adjust stop count, interpolation, distribution, randomized positions, and decimal precision.
+- Combine preset text search, category filtering, and color-family filtering.
+- Browse categories including Trending, Pastel, Dark, Vibrant, Earthy, Warm, Cool, Neutral, and Grayscale.
+- Use thumbnail previews to compare palettes before applying them.
 
-#### Conversion and restore
-| Details |
-|---|
-| Convert native Color Ramp nodes |
-| Build editable group-based ramp workflows |
-| Restore converted ramps |
-| Safe conversion flow |
-| Warning handling for lossy conversion cases |
-| Add Group Input links |
-| Expose ramp controls to group inputs |
+### Conversion and restore
 
-#### Sampling and image workflows
-| Details |
-|---|
-| Extract palettes from image files |
-| Screen color sampler workflow |
-| Capture backend diagnostics |
-| Merge similar neighboring stops |
-| Load a reference image |
-| Clear the reference image |
-| Open an Image Editor workspace helper |
-| Close the temporary Image Editor helper |
+- Convert native Color Ramp nodes into editable group-based workflows.
+- Preserve restore metadata for a practical path back to a native Color Ramp.
+- Expose ramp controls through group inputs when appropriate.
+- Clean up temporary generated data when a conversion fails.
+- Delay persistent/fake-user behavior until the conversion is ready to commit.
 
-#### Editing and cleanup
-| Details |
-|---|
-| Copy ramp |
-| Paste ramp |
-| Redistribute stops |
-| Reverse stops |
-| Normalize stops |
-| Randomize stops |
-| Duplicate midpoints |
-| De-duplicate midpoints |
-| Simplify sampled stops |
-| Limit stop decimals |
-| Nudge stop positions |
-| Set uniform alpha |
-| Create alpha gradients |
+### Sampling and image workflows
 
-#### Color design tools
-| Details |
-|---|
-| Invert colors |
-| Sort by luminance |
-| Sort by hue |
-| Mirror ramp colors |
-| Shuffle ramp colors |
-| Rotate ramp colors |
-| Shift color temperature |
-| Apply harmony modes |
-| Shape values for contrast |
-| Shape values for cinematic looks |
-| Shape values for pastel looks |
-| Shape values for deep-shadow looks |
-| Mutate palettes to softer variants |
-| Mutate palettes to darker variants |
-| Mutate palettes to vivid variants |
-| Mutate palettes to desaturated variants |
-| Mutate palettes with warm shifts |
-| Mutate palettes with cool shifts |
+- Extract palettes from image files.
+- Sample gradients and colors from visual references.
+- Merge similar neighboring stops.
+- Use bounded image sampling instead of loading an entire pixel buffer into Python.
+- Keep temporary image ownership isolated from existing user image datablocks.
+- Use DRH ownership metadata for temporary sampler reference images.
 
-#### Smart builders
-| Details |
-|---|
-| Highlights / Midtones / Shadows builder |
-| Terrain Mask builder |
-| Stylized Sky builder |
-| Heat Map builder |
-| Skin Tones builder |
+### Editing and cleanup
 
-#### Presets and workflow
-| Details |
-|---|
-| Preset browser with thumbnail previews |
-| Search presets by name |
-| Filter presets by dominant color family |
-| Context-menu helpers |
-| Sidebar settings workflow |
-| Support for Shader Editor |
-| Support for Geometry Nodes |
-| Support for Compositor |
+- Copy and paste ramps.
+- Redistribute, reverse, normalize, randomize, and nudge stop positions.
+- Duplicate or de-duplicate midpoints.
+- Simplify sampled stops and limit stop decimals.
+- Set uniform alpha or create alpha gradients.
+
+### Color design tools
+
+- Invert colors.
+- Sort by luminance or hue.
+- Mirror, shuffle, and rotate ramp colors.
+- Shift color temperature.
+- Apply harmony modes.
+- Shape value flow for contrast, cinematic, pastel, or deep-shadow looks.
+- Mutate palettes into softer, darker, vivid, desaturated, warm, or cool variants.
 
 </details>
 
@@ -146,11 +100,11 @@ It is intended for users who work with materials, shaders, procedural textures, 
 | Item | Details |
 |---|---|
 | Status | **Released** |
-| Version | 1.0.0 |
+| Version | **1.1.0** |
 | Blender | 4.2+ |
 | Platforms | Windows, macOS, Linux |
-| Availability | Free public release. |
-| Distribution | Official installable releases are distributed through the linked download page. |
+| Availability | Free public release |
+| Distribution | Official releases are distributed through the linked download page |
 | Repository role | Documentation, support, issue tracking, compatibility feedback, and product feedback |
 
 ## Media
