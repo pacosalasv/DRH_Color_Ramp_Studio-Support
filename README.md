@@ -8,7 +8,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Released-22C55E?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-1.1.0-00B7FF?style=for-the-badge) ![Blender](https://img.shields.io/badge/Blender-4.2%2B-0B1F4D?style=for-the-badge) ![Platforms](https://img.shields.io/badge/Platforms-Windows%2C%20macOS%2C%20Linux-334155?style=for-the-badge)
 
-[![Download](https://img.shields.io/badge/Download-Open-0B1F4D?style=for-the-badge)](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/) [![Support](https://img.shields.io/badge/Support-Issues%20%26%20Discussions-1E5BFF?style=for-the-badge)](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues) [![DRH Add-ons Hub](https://img.shields.io/badge/DRH%20Add-ons%20Hub-Visit-334155?style=for-the-badge)](https://github.com/pacosalasv/DRH_Addons_Hub)
+[![Download](https://img.shields.io/badge/Download-Open-0B1F4D?style=for-the-badge)](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/) [![Support](https://img.shields.io/badge/Support-Issues-1E5BFF?style=for-the-badge)](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues) [![DRH Hub](https://img.shields.io/badge/DRH%20HUB-Catalog-334155?style=for-the-badge)](https://github.com/pacosalasv/DRH_Addons_Hub)
 
 </div>
 
@@ -143,10 +143,16 @@ Ko-fi support is optional. Contributions help fund maintenance, Blender compatib
 | Destination | Link |
 |---|---|
 | Download | [Official product page](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/) |
+| Support development | [Ko-fi](https://ko-fi.com/pacosalasv) |
+| Issues & feedback | [GitHub Issues](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues) |
 | DRH Add-ons Hub | [Catalog and roadmap](https://github.com/pacosalasv/DRH_Addons_Hub) |
-| Paco Salas | DRH | [Official site](https://pacosalasv.blogspot.com/) |
-| BlendKit | [DRH Blender downloads](https://www.blendkit.com/?query=author_id:205846) |
-| Ko-fi | [Support development](https://ko-fi.com/pacosalasv) |
+| BlendKit | [DRH Blender catalog](https://www.blendkit.com/?query=author_id:205846) |
+| Paco Salas \| DRH | [Official site](https://pacosalasv.blogspot.com/) |
+| Xtreme Mindset | [Product lab](https://xtrememindset.blogspot.com/) |
+| Sketchfab / Código Píxel | [3D model collections](https://sketchfab.com/codigopixel/collections) |
+| KreaOn | [Technology education](https://www.kreaon.com/) |
+| PiNu | [Connected physical products](https://pinu.com.mx/) |
+| GitHub | [pacosalasv](https://github.com/pacosalasv) |
 
 ## License
 
