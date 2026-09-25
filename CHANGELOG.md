@@ -11,7 +11,7 @@
 
 ### Presets and discovery
 - Refined the preset library to reduce near-duplicate palettes while keeping compatibility aliases for older files.
-- Expanded category-based discovery with Trending, Pastel, Dark, Vibrant, Earthy, Warm, Cool, Neutral, and Grayscale categories.
+- Expanded category-based discovery with Trending, Pastel, Dark, high-saturation, Earthy, Warm, Cool, Neutral, and Grayscale categories.
 - Preset search, category filtering, and color-family filtering can be combined.
 - Refreshed preset-preview caching for the 1.1 release.
 

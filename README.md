@@ -55,7 +55,7 @@ Version 1.1.0 strengthens color accuracy, preset discovery, image-palette extrac
 - Generate ramps from curated presets, images, complementary palettes, analogous palettes, grayscale palettes, random palettes, and stripe palettes.
 - Adjust stop count, interpolation, distribution, randomized positions, and decimal precision.
 - Combine preset text search, category filtering, and color-family filtering.
-- Browse categories including Trending, Pastel, Dark, Vibrant, Earthy, Warm, Cool, Neutral, and Grayscale.
+- Browse categories including Trending, Pastel, Dark, high-saturation, Earthy, Warm, Cool, Neutral, and Grayscale.
 - Use thumbnail previews to compare palettes before applying them.
 
 ### Conversion and restore
@@ -130,12 +130,14 @@ Product screenshots:
 
 ## Support development
 
-Ko-fi support is optional. Contributions help fund maintenance, Blender compatibility work, documentation, testing, and continued development of free DRH tools.
+Support is optional. Ko-fi and PayPal contributions help fund maintenance, Blender compatibility work, documentation, testing, and continued development of free DRH tools.
 
 <div align="center">
   <a href="https://ko-fi.com/pacosalasv">
     <img width="620" alt="Support Paco Salas | DRH on Ko-fi" src="docs/media/SupportMe.png" />
   </a>
+  <br />
+  <strong>Prefer PayPal?</strong> <a href="https://www.paypal.com/paypalme/pacosalas?locale.x=en_US&country.x=MX">Support DRH development with PayPal</a>
 </div>
 
 ## Ecosystem
@@ -144,6 +146,7 @@ Ko-fi support is optional. Contributions help fund maintenance, Blender compatib
 |---|---|
 | Download | [Official product page](https://www.blendkit.com/asset-gallery-detail/62ac725e-c55e-4e26-9e39-f6b81432d962/) |
 | Support development | [Ko-fi](https://ko-fi.com/pacosalasv) |
+| PayPal | [Support development](https://www.paypal.com/paypalme/pacosalas?locale.x=en_US&country.x=MX) |
 | Issues & feedback | [GitHub Issues](https://github.com/pacosalasv/DRH_Color_Ramp_Studio-Support/issues) |
 | DRH Add-ons Hub | [Catalog and roadmap](https://github.com/pacosalasv/DRH_Addons_Hub) |
 | BlendKit | [DRH Blender catalog](https://www.blendkit.com/?query=author_id:205846) |
